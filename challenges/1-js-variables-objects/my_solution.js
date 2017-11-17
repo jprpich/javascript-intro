@@ -5,6 +5,8 @@
 // __________________________________________
 // Escribe tu codigo aca.
 
+var secretNumber = 1
+
 
 // __________________________________________
 // Refleccion: Escribe una refleccion aca sobre lo que aprendiste.

@@ -1,3 +1,19 @@
+// 1. Todo es un llamado a un metodo en ruby
+// 2. Todos los objectos actuan como un hash
+// 3. "hola #{name}" vs "hola " + name
+// 4. == vs ===
+// 5. deep equality en ruby vs object superficial
+// 6. no argument errors o arity
+// 7. explicit returns
+// 8. las funciones son ciudadanos de primer nivel
+// 9. looping en arrays vs looping en objectos
+// 10. como los arreglos son objetos
+// 11. "this", "call", "apply"
+// 12. clases vs funciones contructoras
+
+
+
+
 name = 'juan'
 uppercase_name = name.toUpperCase
 uppercase_name = name.toUpperCase()
