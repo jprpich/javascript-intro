@@ -59,7 +59,7 @@
 
 ### Objetos Literales (Hashes)
 
-- Listas de paras llave/valor
+- Listas de pares llave/valor
 - Pueden ser nesteados
 - Accediendo a valores
   - Sintax de array `[]`

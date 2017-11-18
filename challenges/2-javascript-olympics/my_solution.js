@@ -10,11 +10,26 @@ var obj = {
   sport: "Tennis"
 }
 
+
 var obj2 = {
   name: "Rodrigo",
   height: "5",
   sport: "Soccer"
 }
+
+var james = {
+  name: "James",
+  sport: "Futbol",
+  height: 13
+}
+
+var falcao = {
+  name: "falcao",
+  sport: "Futbol",
+  height: 13
+}
+
+
 // 1. Añadir propiedades a objetos
 function anadir(arr){
   new_arr = []    
@@ -28,6 +43,14 @@ function anadir(arr){
   return new_arr
 }
 
+
+var addWinToAthelete = function(atletas) {
+  atletas.forEach(function(atleta){
+    atleta.win = function(event) {
+      console.log(`${this.name} won the ${event}`)
+    }
+  })
+}
 
 // 2. Voltea un String
 function voltea(str){

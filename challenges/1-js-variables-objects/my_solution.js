@@ -4,10 +4,17 @@
 
 // __________________________________________
 // Escribe tu codigo aca.
+<<<<<<< HEAD
     var secretNumber = 7
     var password = "just open the door"
     var allowedIn = false
     var members = ["Juan", "Josh","Fabio","German"]
+=======
+
+var secretNumber = 1
+
+
+>>>>>>> 38c9d9239a6c6a0591bbbdd4e5712ebcb9b7c911
 // __________________________________________
 // Refleccion: Escribe una refleccion aca sobre lo que aprendiste.
 //
