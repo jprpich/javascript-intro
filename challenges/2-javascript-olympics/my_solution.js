@@ -5,7 +5,29 @@
 
 // 0. Objetos
 
+var james = {
+  name: "James",
+  sport: "Futbol",
+  height: 13
+}
+
+var falcao = {
+  name: "falcao",
+  sport: "Futbol",
+  height: 13
+}
+
+
+
 // 1. Añadir propiedades a objetos
+
+var addWinToAthelete = function(atletas) {
+  atletas.forEach(function(atleta){
+    atleta.win = function(event) {
+      console.log(`${this.name} won the ${event}`)
+    }
+  })
+}
 
 // 2. Voltea un String
 
