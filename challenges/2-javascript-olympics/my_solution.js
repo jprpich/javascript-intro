@@ -4,14 +4,59 @@
 
 
 // 0. Objetos
+var obj = {
+  name: "Joshua",
+  height: "5",
+  sport: "Tennis"
+}
 
+var obj2 = {
+  name: "Rodrigo",
+  height: "5",
+  sport: "Soccer"
+}
 // 1. Añadir propiedades a objetos
+function anadir(arr){
+  new_arr = []    
+  for (var i = 0; i < arr.length; i++) {
+    var obj = {
+      name: arr[0], 
+      win: function(event){ console.log( this.name + " won the " + event)}
+    }
+    new_arr.push(obj)
+  }
+  return new_arr
+}
+
 
 // 2. Voltea un String
+function voltea(str){
+  new_str = ""
+  for (var i = str.length - 1; i >= 0; i--) {
+    new_str = new_str + str[i]
+  }
+  return new_str
+}
+
 
 // 3. Remueve numeros impares
-
+function impares(arr){
+  new_arr = []
+  for (var i = 0; i < arr.length; i++) {
+    if(arr[i]%2==0){
+      new_arr.push(arr[i])
+    }
+  }
+  return new_arr
+}
 // 4. Funcion constructora
+function Athlete(name, age, sport){
+  this.name = name
+  this.age = age
+  this.sport = sport
+}
+
+
 
 // 5. Reflexion
 
